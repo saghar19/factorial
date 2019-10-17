@@ -1,0 +1,12 @@
+input n
+nfact=1
+if n<0 print no factorial
+end
+if n=0 or n=1 nfactorial=1 
+print nfactorial
+end
+nfact=nfact*n
+n=n-1
+ifn=1 print nfact
+end
+go to 5
